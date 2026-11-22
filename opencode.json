@@ -1,0 +1,12 @@
+{
+  "mcp": {
+    "homelab-ssh": {
+      "type": "local",
+      "command": [
+        "/root/projects/Opencode/.venv/bin/python",
+        "/root/projects/Opencode/server.py"
+      ],
+      "enabled": true
+    }
+  }
+}
