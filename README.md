@@ -34,7 +34,9 @@ which opencode && opencode --version
 Verification: which opencode prints a path (such as /root/.opencode/bin/opencode) and opencode --version outputs the installed version.
 
 4) Configure ~/.config/opencode/opencode.json and Verify MCP. Create ~/.config/opencode/opencode.json pointing homelab-ssh to your .venv Python executable and server.py:
+```bash
 mkdir -p ~/.config/opencode
+ls -l /root/projects/Opencode/.venv/bin/python /root/projects/Opencode/server.py
 ```
 Verification: python3 -m json.tool exits with 0 (valid JSON) and opencode mcp list lists homelab-ssh.
 
